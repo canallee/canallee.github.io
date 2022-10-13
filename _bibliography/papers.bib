@@ -2,89 +2,68 @@
 ---
 @string{aps = {American Physical Society,}}
 
-@unknown{unknown,
-author = {Yu, Tao and Guo, Went and Li, Jianan and Yuan, Tiancheng and Sa, Christopher},
+@article{clean,
+title = {PseudoMSA: Towards High-fitness Protein Variant Generation Guided by Protein Language Models},
+author = { Li, Jianan Canal and Yu, Tianhao and Luo, Yunan and Zhao, Huimin},
+journal={In preparation,},
 year = {2022},
-month = {07},
-pages = {},
+preview={pMSA.png},
+code={https://github.com/canallee/PseudoMSA},
+project={https://github.com/canallee/PseudoMSA#readme},
+abstract={We present a novel generative pipeline that can efficiently recommend high-order protein variants with high fitness. Leveraging on language models trained on billions of naturally occurring proteins, our framework only uses wild-type sequences but not other prior information such as Multiple Sequence Alignment (MSAs) or mutagenesis data. Starting with only the wild-type protein sequence, our framework first generates “pseudo-MSA” by applying masking-filling tasks using a protein language model. Micing evolution, our framework iteratively masks positions based on previous sequences. To evaluate the plausibility of the introduction of new mutations, we calculate the likelihood of the mutated residue relative to the previous sequences, which models the degree of `intrinsic fitness' gain. After the pseudoMSA is generated, it is used as the training data of a generative model tasked to generate high-order variants. The trained generative model can be used as a high-fidelity prior to sample high-fitness, high-order protein variants. Our presented work can be widely applied to downstream protein engineering tasks, and can potentially recover higher-order mutants which can be easily neglected in the current bioinformatics workflow. }
+}
+
+
+
+@article{clean,
+title = {Enzyme Function Prediction using Contrastive Learning},
+author = {Yu*, Tianhao and Cui*, Haiyang and Li, Jianan Canal and Luo, Yunan and Zhao, Huimin},
+journal={In review of Science,},
+year = {2022},
+preview={CLEAN.png},
+poster={CLEAN_Poster.pdf},
+notes={CLEAN_proofs.pdf},
+code={https://github.com/tttianhao/CLEAN},
+abstract={Enzyme function annotation is a fundamental challenge in protein science and numerous
+computational tools have been developed. However, most of these tools cannot accurately predict functional
+annotations such as enzyme commission (EC) number for less studied or proteins with novel or multiple
+functions. Herein, we present a machine learning algorithm named CLEAN (contrastive learning enabled
+enzyme annotation) to assign EC numbers to enzymes with better accuracy, reliability, and sensitivity than
+the state-of-the-art tool BLASTp. CLEAN learns an enzyme function informed sequence representation
+whose Euclidean distance reflects functional similarity. The transformative contrastive learning framework
+empowers CLEAN to confidently: i) characterize the understudied or unannotated enzymes, ii) correct the
+mislabeled enzymes, and iii) identify the promiscuous enzymes, which are demonstrated by systematic in
+silico and in vitro experiments. We expect this tool to greatly facilitate functional genomics, enzymology,
+and synthetic biology studies.}
+}
+
+
+@article{mctensor,
 title = {MCTensor: A High-Precision Deep Learning Library with Multi-Component Floating-Point},
-doi = {10.48550/arXiv.2207.08867}
+author = {Yu*, Tao and Guo*, Wentao and Li*, Jianan Canal and Yuan*, Tiancheng and De Sa, Christopher},
+journal={ICML Workshop on Hardware Aware Efficient Training (HAET),},
+year = {2022},
+preview={MCTensor.png},
+doi = {10.48550/arXiv.2207.08867},
+pdf={MCTensor.pdf},
+poster={MCTensor_poster.pdf},
+slides={MCTensor_slides.pdf},
+code={https://github.com/ydtydr/MCTensor},
+abstract={In this paper, we introduce MCTensor, a library based on PyTorch for providing general-purpose and high-precision arithmetic for DL training. MCTensor is used in the same way as PyTorch Tensor: we implement multiple basic, matrix-level computation operators and NN modules for MCTensor with identical PyTorch interface. Our algorithms achieve high precision computation and also benefits from heavily-optimized PyTorch floating-point arithmetic. We evaluate MCTensor arithmetic against PyTorch native arithmetic for a series of tasks, where models using MCTensor in float16 would match or outperform the PyTorch model with float32 or float64 precision.},
+}
+ 
+@article{cKAM,
+author = {Li*, Jianan Canal and Zeng*, Yimeng and Guo*, Wentao},
+year = {2021},
+preview={cKAM.png},
+title = {Cyclical Kernel Adaptive Metropolis},
+journal={Preprint. In submission,},
+doi = {10.48550/arXiv.2206.14421},
+code={https://github.com/canallee/Cyclical-Kernel-Adaptive-Metropolis},
+pdf={cKAM.pdf},
+abstract={We propose cKAM, cyclical Kernel Adaptive Metropolis, which incorporates a cyclical stepsize scheme to allow control for exploration and sampling. We show that on a crafted bimodal distribution, existing Adaptive Metropolis type algorithms would fail to converge to the true posterior distribution. We point out that this is because adaptive samplers estimates the local/global covariance structure using past history of the chain, which will lead to adaptive algorithms be trapped in a local mode. We demonstrate that cKAM encourages exploration of the posterior distribution and allows the sampler to escape from a local mode, while maintaining the high performance of adaptive methods.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+ 
