@@ -8,7 +8,7 @@ subtitle: >
 profile:
   align: right
   image: picture.jpg
-  image_cicular: True # crops the image to make it circular
+  image_cicular: true 
   address: >
     <pre> jl3789[at]cornell[dot]edu</pre>
       
