@@ -20,8 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Computer Scientist and Bioengineer in training. Excited by unlimited possibilities in applying machine
-learning frameworks to biology. I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
+Excited by the unlimited possibilities in applying machine learning frameworks to biology. During my undergraduate years (freshman at UIUC, then at Cornell), I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
 Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/)
 @UIUC.
 
