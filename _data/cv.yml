@@ -31,7 +31,7 @@
   type: time_table
   contents:
     - title: Machine Learning Intern
-      institution: University of Illinois Urbana-Champaign
+      institution:  Carl R. Woese Institute for Genomic Biology, UIUC
       year: 2022 - now
       description:
         - Advised by <a href="http://faculty.scs.illinois.edu/~zhaogrp/">Prof. Huimin Zhao</a>
