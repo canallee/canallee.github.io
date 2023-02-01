@@ -24,7 +24,7 @@ Excited by the unlimited possibilities in applying machine learning frameworks t
 Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/)
 @UIUC.
 
-My research interest lies broadly in the power set of {*synthetic biology*, 
+My research interest lies broadly in the power set of {*synthetic biology*, *AI4Science*,
 *generative models*, *deep learning*}.  I have been working on projects involving 
 Markov Chain Monte Carlo (MCMC), 
 ML-guided directed evolution (MLDE), representation learning, and generative models.  
