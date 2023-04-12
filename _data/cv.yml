@@ -13,13 +13,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.S. in Computer Science / Bioengineering
+    - title: B.S. in Computer Science With Honors / Bioengineering
       institution: Cornell University
       year: 2019-2022 
       description:
-        - GPA = 4.04/4.3 (A+ = 4.3)
-        - "Focus Area (Bioengineering): Computational Biological Engineering"
-        - "Vector (CS): Machine Learning Track"
+        - Magna Cum Laude, GPA = 3.96/4.3 
     - title: Bioengineering, undergraduate
       institution: University of Illinois Urbana-Champaign
       year: 2018-2019
