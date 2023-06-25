@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-    <p>Undergraduate CS&BioE @Cornell</p>
+    <p>Incoming PhD student @Berkeley EECS</p>
     
 profile:
   align: right
@@ -23,6 +23,8 @@ social: true  # includes social icons at the bottom of the page
 Excited by the unlimited possibilities in applying machine learning frameworks to biology. During my undergraduate years (freshman at UIUC, then at Cornell), I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
 Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/)
 @UIUC.
+
+#UPDATE# Starting this fall, I will be an PhD student at UC Berkeley and will be affiliated with [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/).
 
 My research interest lies broadly in the power set of {*synthetic biology*, *AI4Science*,
 *generative models*, *deep learning*}.  I have been working on projects involving 
