@@ -10,7 +10,7 @@ profile:
   image: picture.jpg
   image_cicular: true 
   address: >
-    <pre> jl3789[at]cornell[dot]edu</pre>
+    <pre> licanal[at]berkeley[dot]edu</pre>
       
 # <p>123 your address street</p>
 # <p>Your City, State 12345</p>
