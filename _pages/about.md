@@ -10,7 +10,7 @@ profile:
   image: picture.jpg
   image_cicular: true 
   address: >
-    <pre> licanal@berkeley.edu</pre>
+    <pre>licanal@eecs.berkeley.edu</pre>
       
 # <p>123 your address street</p>
 # <p>Your City, State 12345</p>
