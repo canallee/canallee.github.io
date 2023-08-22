@@ -13,6 +13,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: CS Ph.D.
+      institution: UC Berkeley
+      year: 2023-2028
+      description:
+        - AI+BIO track
     - title: Bachelor of Science
       institution: Cornell University
       year: 2019-2022 
@@ -35,7 +40,7 @@
       description:
         - Advised by <a href="http://faculty.scs.illinois.edu/~zhaogrp/">Prof. Huimin Zhao</a>
          and <a href="https://faculty.cc.gatech.edu/~yunan/">Prof. Yunan Luo</a>
-        - "Topic: Protein Engineering, Machine Learning-guided Directed Evolution" 
+        - "Topic: Protein Engineering 
         - See details in <a href="/assets/pdf/Canal_CV.pdf">CV.pdf</a>
  
     - title: Research Assistant
@@ -53,7 +58,7 @@
       institution: University of Illinois Urbana-Champaign
       year: 2018 - 2019
       description:
-        - Advised by Prof. Huimin Zhao 
+        - Advised by Prof. <a href="http://faculty.scs.illinois.edu/~zhaogrp/">Prof. Huimin Zhao</a> 
         - "Topic: CRISPR-AID system, Chemoenzymatic catalysis (wet-lab)" 
  
 

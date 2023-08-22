@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-    <p>Incoming PhD student @Berkeley EECS</p>
+    <p>PhD student @Berkeley EECS</p>
     
 profile:
   align: right
@@ -20,17 +20,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Excited by the unlimited possibilities in applying machine learning frameworks to biology. During my undergraduate years (freshman at UIUC, then at Cornell), I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
+Excited by the unlimited possibilities in applying machine learning frameworks to biology. Current first-year Ph.D. student affiliated with [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) lab at UC Berkeley, co-advised by Prof. [Yun S. Song](http://people.eecs.berkeley.edu/~yss/) and Prof. [Jennifer Listgarten](http://www.jennifer.listgarten.com/).
+
+During my undergraduate years (freshman at UIUC, then at Cornell), I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
 Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/)
 @UIUC.
 
-#UPDATE# Starting this fall, I will be an PhD student at UC Berkeley and will be affiliated with [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/).
-
 My research interest lies broadly in the power set of {*synthetic biology*, *AI4Science*,
 *generative models*, *deep learning*}.  I have been working on projects involving 
-Markov Chain Monte Carlo (MCMC), 
-ML-guided directed evolution (MLDE), representation learning, and generative models.  
-
+Markov Chain Monte Carlo (MCMC), ML-guided directed evolution (MLDE), representation learning, and generative models.  
 
 <!-- 
 
