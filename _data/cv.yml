@@ -36,16 +36,15 @@
   contents:
     - title: Machine Learning Intern
       institution:  Carl R. Woese Institute for Genomic Biology, UIUC
-      year: 2022 - now
+      year: 2022
       description:
         - Advised by <a href="http://faculty.scs.illinois.edu/~zhaogrp/">Prof. Huimin Zhao</a>
          and <a href="https://faculty.cc.gatech.edu/~yunan/">Prof. Yunan Luo</a>
-        - "Topic: Protein Engineering"
-        - See details in <a href="/assets/pdf/Canal_CV.pdf">CV.pdf</a>
+        - "Topic: Protein Engineering and Enzyme Function Annotations"
  
     - title: Research Assistant
       institution: Cornell University
-      year: 2020 - now
+      year: 2020 - 2022
       description:
         - Advised by <a href="https://www.cs.cornell.edu/~cdesa/">Prof. Chris De Sa</a>
         - "Topic: High-precision DL, Hyperbolic Embedding, Scalable Markov Chain Monte Carlo" 
@@ -62,12 +61,12 @@
         - "Topic: CRISPR-AID system, Chemoenzymatic catalysis (wet-lab)" 
  
 
-    - title: Team Leader 
-      institution: International Genetically Engineered Machine (iGEM) competition
-      year: 2017
-      description: 
-        - Engineering an enzymes system for nitrite disintegration
-        - <a href="https://2017.igem.org/Team:HFLS_H2Z_Hangzhou">Team wiki page</a>
+    # - title: Team Leader 
+    #   institution: International Genetically Engineered Machine (iGEM) competition
+    #   year: 2017
+    #   description: 
+    #     - Engineering an enzymes system for nitrite disintegration
+    #     - <a href="https://2017.igem.org/Team:HFLS_H2Z_Hangzhou">Team wiki page</a>
         
 
 
@@ -81,7 +80,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2019 - now
+    - year: 2023 - 2024
+      items: 
+        - UC Berkeley College of Engineering fellowship
+    - year: 2019 - 2022
       items: 
         - Cornell Engineering College Dean's List
     - year: 2021
@@ -90,12 +92,12 @@
     - year: 2018 - 2019
       items: 
         - UIUC Engineering College Dean's List
-    - year: 2017
-      items: 
-        - Silver Prize for iGEM Competition
-    - year: 2017
-      items: 
-        - World Runner-up for International Space Settlement Design Competition
+    # - year: 2017
+    #   items: 
+    #     - Silver Prize for iGEM Competition
+    # - year: 2017
+    #   items: 
+    #     - World Runner-up for International Space Settlement Design Competition
 
 # - title: Academic Interests
 #   type: nested_list
