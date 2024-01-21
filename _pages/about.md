@@ -20,10 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Excited by the unlimited possibilities in applying machine learning frameworks to biology. Current first-year Ph.D. student affiliated with [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) lab at UC Berkeley, currently rotating in Prof. [Yun S. Song](http://people.eecs.berkeley.edu/~yss/)'s group.
-
-During my undergraduate years (freshman at UIUC, then at Cornell), I have been extremely fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and
-Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/) @UIUC.
+Excited by the unlimited possibilities in applying machine learning frameworks to biology. I am a CS PhD student advised by Prof. [Yun S. Song](http://people.eecs.berkeley.edu/~yss/), affiliated with [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/). During my undergraduate years (freshman at UIUC, then at Cornell), I have been fortunate to be advised by Prof. [Buz Barstow](https://barstow.bee.cornell.edu) and Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) @Cornell, and Prof. [Huimin Zhao](http://faculty.scs.illinois.edu/~zhaogrp/) @UIUC.
 
 My research interest lies broadly in the power set of {*synthetic biology*, *AI4Science*,
 *generative models*, *deep learning*}.  I have been working on projects involving 
