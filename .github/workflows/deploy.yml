@@ -23,11 +23,15 @@ jobs:
         ruby-version: '3.0.2'
         bundler-cache: true
 
+    - name: Update Bundler
+      run: gem install bundler -v 2.3.26
+
     - name: Install dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential
-        bundle install
+        # Use the updated bundler version to install gems
+        bundle _2.3.26_ install
 
     - name: Setup deploy options
       id: setup
