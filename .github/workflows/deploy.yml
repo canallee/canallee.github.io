@@ -30,7 +30,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential
-        # Use the updated bundler version to install gems
+        # Use the updated Bundler version for installation
         bundle _2.3.26_ install
 
     - name: Setup deploy options
