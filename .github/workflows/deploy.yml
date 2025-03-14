@@ -25,6 +25,8 @@ jobs:
 
     - name: Update Bundler
       run: gem install bundler -v 2.3.26
+           bundle add webrick
+           bundle exec jekyll serve
 
     - name: Install dependencies
       run: |
