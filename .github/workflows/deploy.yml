@@ -20,13 +20,11 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        ruby-version: '3.2.2'
         bundler-cache: true
 
     - name: Update Bundler
       run: gem install bundler -v 2.3.26
-           bundle add webrick
-           bundle exec jekyll serve
 
     - name: Install dependencies
       run: |
